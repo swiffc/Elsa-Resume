@@ -374,6 +374,7 @@ const allExperiences: Record<string, Experience[]> = {
         "• Developed integrated accumulator systems for North Sea operations, ensuring reliable operation in extreme environmental conditions",
         "• Streamlined hydraulic cylinder design processes, reducing manufacturing complexity while improving load capacity through innovative design solutions",
         "• Implemented comprehensive safety-first design principles that maintained excellent safety record throughout tenure on high-risk offshore projects"
+      ],
       technologies: ["AutoCAD", "Hydraulic Systems", "Motion Compensation", "Offshore Engineering", "Safety Systems", "FEA Analysis"]
     }
   ],
@@ -417,22 +418,22 @@ const allExperiences: Record<string, Experience[]> = {
     },
     {
       id: "amtex-machine",
-      company: "AmTex Machine Product",
-      position: "Quality Control Inspector", 
+      company: "AmTex Machine Products",
+      position: "QC Inspector", 
       location: "Houston, TX",
-      startDate: "Jan 2017",
-      endDate: "Feb 2018",
+      startDate: "Aug 2016",
+      endDate: "Apr 2018",
       logo: "🔍",
       color: "blue",
       description: [
-        "• I took pride in performing thorough quality inspections, knowing that my attention to detail helped maintain the exceptional standards our customers expected from every product",
-        "• Working with precision measuring instruments became second nature – there's something deeply satisfying about conducting first article inspections and knowing everything meets exact specifications",
-        "• I enjoyed collaborating with material operations and planning teams during weekly evaluations, finding ways to optimize our production workflows and make everyone's job easier",
-        "• Being the person who caught non-conforming products before they reached customers felt like being a guardian of quality – I made sure everything was properly documented and processed",
-        "• I developed detailed monitoring systems that not only tracked our production but actually supported our continuous improvement efforts – data that made a real difference",
-        "• From specification checks to tool calibration audits, I made sure our equipment stayed accurate and reliable – the foundation of everything we produced"
+        "Performed routine quality inspections to ensure consistency in all products",
+        "Performed first article inspection and routine dimensional inspections",
+        "Performed weekly requirement evaluations in coordination with material operations and planning teams",
+        "Assuring that non-conforming products are properly identified and documented",
+        "Maintains, monitors, and records information pertaining to product and production",
+        "Conducts online specification checks, dimensional inspections, and tool calibration audits"
       ],
-      technologies: ["Precision Measurement", "Quality Control", "Dimensional Inspection", "First Article Inspection", "Tool Calibration", "Documentation Systems", "Statistical Process Control"]
+      technologies: ["Quality Inspections", "First Article Inspection", "Dimensional Inspections", "Material Operations", "Documentation", "Specification Checks", "Tool Calibration"]
     }
   ]
 }
