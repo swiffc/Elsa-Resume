@@ -14,11 +14,23 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Debug for Vercel -->
+    <!-- Performance and Error Handling -->
     <script>
       console.log('HTML loaded successfully');
       window.addEventListener('load', () => {
         console.log('Window loaded');
+        // Check if React app loaded
+        setTimeout(() => {
+          const root = document.getElementById('root');
+          if (root && root.innerHTML.includes('Loading Portfolio')) {
+            console.warn('React app may not have loaded properly');
+          }
+        }, 3000);
+      });
+      
+      // Global error handler
+      window.addEventListener('error', (e) => {
+        console.error('Global error:', e.error);
       });
     </script>
   </head>

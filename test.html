@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Test Page Working!</h1>
+        <p>If you can see this, the basic server setup is working correctly.</p>
+        <p>This means we can now diagnose the React application issue.</p>
+        <button class="btn" onclick="alert('JavaScript is working!')">Test JavaScript</button>
+        <br><br>
+        <p><strong>Next:</strong> We'll fix the React portfolio to display properly.</p>
+    </div>
+    
+    <script>
+        console.log('Test page loaded successfully!');
+        console.log('Current URL:', window.location.href);
+        console.log('User Agent:', navigator.userAgent);
+    </script>
+</body>
+</html>

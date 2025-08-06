@@ -374,7 +374,6 @@ const allExperiences: Record<string, Experience[]> = {
         "• Developed integrated accumulator systems for North Sea operations, ensuring reliable operation in extreme environmental conditions",
         "• Streamlined hydraulic cylinder design processes, reducing manufacturing complexity while improving load capacity through innovative design solutions",
         "• Implemented comprehensive safety-first design principles that maintained excellent safety record throughout tenure on high-risk offshore projects"
-      ],
       technologies: ["AutoCAD", "Hydraulic Systems", "Motion Compensation", "Offshore Engineering", "Safety Systems", "FEA Analysis"]
     }
   ],
@@ -382,20 +381,21 @@ const allExperiences: Record<string, Experience[]> = {
     {
       id: "systel",
       company: "Systel",
-      position: "Mechanical Engineer",
-      location: "Houston, TX", 
-      startDate: "2020",
+      position: "Mechanical Designer",
+      location: "Sugarland, TX", 
+      startDate: "Jan 2020",
       endDate: "Present",
       logo: "",
       color: "emerald",
       description: [
-        "• Design and validate electro-mechanical systems through comprehensive testing protocols, identifying critical failure modes and implementing preventive design modifications to ensure system reliability",
-        "• Conduct precision mechanical testing on electronic assemblies using advanced stress analysis techniques, thermal cycling, and vibration testing to validate performance under operational conditions",
-        "• Collaborate with cross-functional design teams to optimize mechanical interfaces, achieving 25% reduction in component failures through root cause analysis and design improvements",
-        "• Develop and implement automated testing procedures integrating mechanical measurement systems with electronic validation protocols, improving testing accuracy by 30%",
-        "• Create comprehensive engineering documentation including test procedures, failure analysis reports, and design specifications to support product development and manufacturing processes"
+        "Create Parts/BOMs via Engineering Change Order (ECO) tool ERP system",
+        "Create/Revise assembly documentation via Autodesk Inventor software",
+        "Prepare drawings layouts using AutoCAD, Inventor, and Solid works",
+        "Support Manufacturing personnel during production assembly",
+        "Interface with Manufacturers/Vendors for specifications of purchased components support",
+        "Sales/Marketing/Customer by providing conceptual drawings/modeling of products"
       ],
-      technologies: ["Mechanical System Analysis", "Thermal Testing", "Stress Analysis", "Design Validation", "Engineering Documentation", "Failure Mode Analysis", "Technical Problem Solving"]
+      technologies: ["AutoCAD", "Autodesk Inventor", "SolidWorks", "ERP Systems", "Engineering Change Orders", "Manufacturing Support", "Technical Documentation"]
     },
     {
       id: "diamonds-blocks",
@@ -407,11 +407,11 @@ const allExperiences: Record<string, Experience[]> = {
       logo: "🏗️",
       color: "purple",
       description: [
-        "• You know that feeling when you finally understand a complex puzzle? That's exactly what happened when I first started interpreting engineering drawings and blueprints – suddenly everything clicked and I could see how all the pieces fit together in the real manufacturing world",
-        "• I became obsessed with time studies (in the best way!) because watching how tiny tweaks could dramatically boost production capacity was like discovering superpowers – who knew a few seconds here and there could transform entire operations?",
-        "• Testing product sub-systems became my favorite detective work – I'd dig deep to validate reliability performance, and there's nothing quite like that 'aha!' moment when you catch something that could prevent future failures",
-        "• Working across maintenance, production quality, and safety departments was like getting a backstage pass to see how a manufacturing symphony really works – every department playing their part to create something amazing",
-        "• Being the intern who actually got to contribute ideas to improve our product development process? That was pure gold! Seeing my suggestions implemented and making a real difference gave me such a rush"
+        "Interpreted design engineering drawings and blueprints",
+        "Conducted time studies to improve production capacity",
+        "Validated product sub-system reliability performance",
+        "Provide technical support to maintenance, production quality, and safety department",
+        "Participated in team lead efforts to continually improve the product development process"
       ],
       technologies: ["Engineering Drawings", "Blueprint Interpretation", "Time Studies", "Reliability Testing", "Production Quality", "Process Improvement", "Technical Support"]
     },
@@ -2904,7 +2904,7 @@ function ProjectsSection({ currentProfile }: { currentProfile: string }) {
 
               {/* Hover Effect Footer */}
               <div className={`px-6 pb-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300`}>
-                <button className={`w-full py-2 bg-gradient-to-r from-${colors.accent} to-${colors.secondary} text-white rounded-lg text-sm font-medium hover:shadow-lg transition-all duration-200`}>
+                <button className="w-full py-2 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg text-sm font-medium hover:shadow-lg transition-all duration-200">
                   View Project Details
                 </button>
               </div>
